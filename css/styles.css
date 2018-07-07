@@ -1,0 +1,152 @@
+body {
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  background: #ffffff;
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #3D3D3D 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#3D3D3D 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3D3D3D',GradientType=1 );
+  background-image: url('https://4.bp.blogspot.com/-WmK8h1N-Ukg/WxSmyuwoIeI/AAAAAAAAwpY/FzttkkagcPIObr8AL76KNG_gbqArNhf1gCLcBGAs/s1600/FOTO%2BOZUNA_preview.png'), radial-gradient(ellipse at center, #ffffff 0%,#3D3D3D 100%);
+  background-repeat: no-repeat;
+  background-size: 20%, 100%;
+  background-position: center 100%;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotipo {
+  margin: 0;
+  background-color: rgba(255, 255, 255, .3);
+  height: 100px;
+}
+
+.menu {
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 100px;
+}
+
+.menu li:active {
+  transform: scale(.8);
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.redes-sociales {
+  position: absolute;
+  left: -6.5%;
+  bottom: 21%;
+  transform: rotate(270deg);
+  font-size: 16px;
+}
+
+.redes-sociales a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  height: 482px;
+  display: flex;
+  margin-left: 99.4px;
+  border-left: 0.5px solid white;
+  color: white;
+  overflow: hidden;
+}
+
+.reproductor {
+  height: inherit;
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+.textoprincipal {
+  height: inherit;
+  position: relative;
+  left: 40%;
+  top: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+
+section {
+  flex: 1;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 150px;
+  margin-left: 99.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+  overflow: hidden;
+}
+
+.tweets-1 {
+  height: inherit;
+  width: 35%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.tweets-1 span {
+  color: #FEF6AD;
+}
+
+.tweets-2 {
+  height: inherit;
+  width: 35%;
+  margin-left: 25%;
+  margin-top: 6%;
+}
+
+.tweets-2 a {
+  text-decoration: none;
+  color: #FEF6AD;
+}
+
+.twitter {
+  height: inherit;
+  background-color: rgba(255, 255, 255, .4);
+  width: 7%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.twitter p {
+  transform: rotate(270deg);
+}
+
+.twitter a {
+  text-decoration: none;
+  color: white;
+}
