@@ -2,14 +2,18 @@ body {
   font-family: 'Lato', sans-serif;
   min-height: 100vh;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .background {
   background: #ffffff;
-  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #3D3D3D 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#3D3D3D 100%);
+  background: -webkit-radial-gradient(center, ellipse farthest-corner, #ffffff 0%,#3D3D3D 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3D3D3D',GradientType=1 );
   background-image: url('https://4.bp.blogspot.com/-WmK8h1N-Ukg/WxSmyuwoIeI/AAAAAAAAwpY/FzttkkagcPIObr8AL76KNG_gbqArNhf1gCLcBGAs/s1600/FOTO%2BOZUNA_preview.png'), radial-gradient(ellipse at center, #ffffff 0%,#3D3D3D 100%);
   background-repeat: no-repeat;
@@ -19,9 +23,15 @@ body {
 
 .header {
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logotipo {
@@ -35,6 +45,8 @@ body {
 }
 
 .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding: 0;
@@ -42,10 +54,12 @@ body {
 
 .menu li {
   margin-right: 100px;
+  transition: .2s;
 }
 
 .menu li:active {
-  transform: scale(.8);
+  -webkit-transform: scale(.8);
+          transform: scale(.8);
 }
 
 .menu a {
@@ -57,7 +71,8 @@ body {
   position: absolute;
   left: -6.5%;
   bottom: 21%;
-  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
   font-size: 16px;
 }
 
@@ -69,6 +84,8 @@ body {
 
 .container {
   height: 482px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 99.4px;
   border-left: 0.5px solid white;
@@ -93,16 +110,24 @@ body {
 }
 
 section {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 footer {
   background-color: rgba(255, 255, 255, 0.15);
   height: 150px;
   margin-left: 99.4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 13px;
   color: white;
   overflow: hidden;
@@ -136,14 +161,21 @@ footer {
   background-color: rgba(255, 255, 255, .4);
   width: 7%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
 }
 
 .twitter p {
-  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 
 .twitter a {
